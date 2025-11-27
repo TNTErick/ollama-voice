@@ -1,0 +1,14 @@
+[project]
+name = "ollama-voice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.2",
+    "flask-socketio>=5.5.1",
+    "ollama>=0.6.1",
+    "open-webui>=0.6.40",
+    "openai-whisper>=20250625",
+    "pyttsx3>=2.99",
+]
