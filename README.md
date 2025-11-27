@@ -20,4 +20,5 @@ uv run python app.py
 And the shell output will contain the link to which you can open the web-app.
 
 # Known Issues
-- While it is still speaking, you enter another prompt, but it will show up as 'undefined'.
+
+- It seems that the model response is from another thread each time.
